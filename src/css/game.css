@@ -1,0 +1,25 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	list-style:none;
+}
+
+html, body, main {
+	height:100%;
+}
+
+main {
+	background:linear-gradient(90deg, #CEE2F5, dodgerblue);
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+section {
+	width:80%;
+	height:80%;
+	background-color:#E1E1E1;
+	border-radius:80px;
+	box-shadow:10px 10px 10px rgb(0,0,0,0.5),-1px -1px 10px rgb(0,0,0,0.5);
+}
